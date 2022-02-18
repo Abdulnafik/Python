@@ -23,14 +23,19 @@ def square():
 def cube():
     num = input("Enter your number: ")
     return float(num) * float(num) * float(num)
+def sqr_rt():
+    num = input("Enter your number: ")
+    return float(num) ** 0.5
 print("Select the process")
-print("input 1 for Basic Calculation\n input 2 to find square \n input 3 to find cube\n")
+print("input 1 for Basic Calculation\n input 2 to find square \n input 3 to find cube\n input 4 to find square root")
 Selection = input("Select your choice: ")
 
 if Selection == "1":
     print(basic())
 elif Selection == "2":
     print(square())
-else:
-    Selection == "3"
+elif Selection == "3":
     print(cube())
+else:
+    Selection == "4"
+    print(sqr_rt())
