@@ -14,9 +14,10 @@ def basic():
         print(subtract)
     elif action == "M":
         print(multiply)
-    else:
-        Selection == "D"
+    elif Selection == "D":
         print(f"{Division} and the reminder is {Remainder}")
+    else:
+        print("Please chose the correct input")
 def square():
     num = input("Enter your number: ")
     return float(num) * float(num)
@@ -36,6 +37,7 @@ elif Selection == "2":
     print(square())
 elif Selection == "3":
     print(cube())
-else:
-    Selection == "4"
+elif Selection == "4":
     print(sqr_rt())
+else:
+    print("Please chose the correct option")
