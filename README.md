@@ -6,10 +6,10 @@ Simple Calculator has few functions includes all the basic calculations and find
 ## Features
 
 - Basic calcualations such as
---Addition
---substarction
---Multiplication
---Division
+--Addition  
+--substarction  
+--Multiplication  
+--Division  
 - To find Sqauare of any number
 - To find Cube of any number
 - To find Sqauare root of any number
