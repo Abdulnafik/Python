@@ -69,7 +69,7 @@ def square():
 
 
 
-Function ```cube()``` used to find square of any number and will return the output as a ```float()```
+Function ```cube()``` used to find square of any number and will return the output as a ```float()```, and ```num``` is the variable and ```**``` is used to find power of any number, here we have to find power of 3 for provided ```input```, hence using ```** 3```.
 
 
 
@@ -80,5 +80,17 @@ def cube():
 ```  
 
 ### Output of Cube function
->![image](https://user-images.githubusercontent.com/86762727/155147865-dfe5890d-6add-41b3-9e2b-bdafd16fcded.png)
+>![image](https://user-images.githubusercontent.com/86762727/155147865-dfe5890d-6add-41b3-9e2b-bdafd16fcded.png)  
+
+
+Function ```sqr_rt()``` used to find square root of any number and will return the output as a ```float()```, and ```num``` is the variable and ```**``` is used to find power of any number, here we have to find square root of provided ```input```, hence using ```** 0.5```, Which is same as square root.
+
+```sh
+def sqr_rt():
+    num = input("Enter your number: ")
+    return float(num) ** 0.5
+```  
+### Output of sqr_rt function
+>![image](https://user-images.githubusercontent.com/86762727/155151826-31d72bf5-8539-43bf-886e-846145e2cf56.png)  
+    
 
