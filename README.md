@@ -5,7 +5,7 @@ Simple Calculator has few functions includes all the basic calculations and find
 
 ## Features
 
-- Basic calcualations such as
+- Basic calcualations such as  
 --Addition  
 --substarction  
 --Multiplication  
