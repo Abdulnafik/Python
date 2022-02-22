@@ -1,23 +1,17 @@
 def basic():
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    add =float(num1) + float(num2)
-    subtract = float(num1) - float(num2)
-    multiply = float(num1) * float(num2)
-    Division = float(num1) // float(num2)
-    Remainder = num1 % num2
-    print("input A for add\n input S for subtract\n input M for multiplication\n input D for Division\n")
-    action = input("Chose an action: ")
-    if action == "A":
-        print(add)
-    elif action == "S":
-        print(subtract)
-    elif action == "M":
-        print(multiply)
-    elif Selection == "D":
-        print(f"{Division} and the reminder is {Remainder}")
+    num1 = float(input("Enter first number: "))
+    op = input("Chose operator: ")
+    num2 = float(input("Enter second number: "))
+    if op == "+":
+        print(num1 + num2)
+    elif op == "-":
+        print(num1 - num2)
+    elif op == "*":
+        print(num1 * num2)
+    elif op == "/":
+        print(num1 / num2)
     else:
-        print("Please chose the correct input")
+        print("Invalid operator")
 def square():
     num = input("Enter your number: ")
     return float(num) ** 2
