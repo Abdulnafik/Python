@@ -26,7 +26,7 @@ print("input 1 for Basic Calculation\n input 2 to find square \n input 3 to find
 Selection = input("Select your choice: ")
 
 if Selection == "1":
-    print(basic())
+    basic()
 elif Selection == "2":
     print(square())
 elif Selection == "3":
