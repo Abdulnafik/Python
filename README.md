@@ -38,7 +38,7 @@ def basic():
         print("Invalid operator")
 
 ```
-Fubction ```basic()``` used to find all the basic calculation for provided ```float()``` variables ```num1``` & ```num2```, also ```if``` statements with variable ```op```  will only accept the operators such as ```+```, ```-```, ```*```, and ```/``` for addition, Subtraction, Multiplication and Division repectively as ```str```, for all other input which will provide an output as ```invalid operator```
+Function ```basic()``` used to find all the basic calculation for provided ```float()``` variables ```num1``` & ```num2```, also ```if``` statements with variable ```op```  will only accept the operators such as ```+```, ```-```, ```*```, and ```/``` for addition, Subtraction, Multiplication and Division repectively as ```str```, for all other input which will provide an output as ```invalid operator```
 
 ### Output of Basic Calculation
 >Addition  
@@ -49,6 +49,36 @@ Multiplication
 >![image](https://user-images.githubusercontent.com/86762727/155143062-4ce32a2c-f49a-4559-9372-d7dc12d503e9.png)  
 Division  
 >![image](https://user-images.githubusercontent.com/86762727/155143315-e64d4fb6-fa32-4aa9-b09e-871f371eec18.png)  
-For any other selection for Operator  
+For any other selection of Operator  
 >![image](https://user-images.githubusercontent.com/86762727/155144190-eba86811-c615-4512-83f2-dfea96d00352.png)  
+
+    
+Function ```square()``` used to find square of any number and will return the output as a ```float()```
+
+
+
+```sh
+def square():
+    num = input("Enter your number: ")
+    return float(num) ** 2
+```
+
+
+### Output of Square function  
+>![image](https://user-images.githubusercontent.com/86762727/155146971-3caae698-ffcc-42e6-bc5d-f0aa63420664.png)  
+
+
+
+Function ```cube()``` used to find square of any number and will return the output as a ```float()```
+
+
+
+```sh
+def cube():
+    num = input("Enter your number: ")
+    return float(num) ** 2
+```  
+
+### Output of Square function
+>![image](https://user-images.githubusercontent.com/86762727/155147865-dfe5890d-6add-41b3-9e2b-bdafd16fcded.png)
 
