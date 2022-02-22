@@ -20,10 +20,10 @@ def basic():
         print("Please chose the correct input")
 def square():
     num = input("Enter your number: ")
-    return float(num) * float(num)
+    return float(num) ** 2
 def cube():
     num = input("Enter your number: ")
-    return float(num) * float(num) * float(num)
+    return float(num) ** 3
 def sqr_rt():
     num = input("Enter your number: ")
     return float(num) ** 0.5
