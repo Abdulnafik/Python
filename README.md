@@ -53,7 +53,7 @@ For any other selection of Operator
 >![image](https://user-images.githubusercontent.com/86762727/155144190-eba86811-c615-4512-83f2-dfea96d00352.png)  
 
     
-Function ```square()``` used to find square of any number and will return the output as a ```float()```
+Function ```square()``` used to find square of any number and will return the output as a ```float()```, and ```num``` is the variable and ```**``` is used to find power of any number, here we have to find power of 2 for provided ```input```, hence using ```** 2```.
 
 
 
@@ -76,9 +76,9 @@ Function ```cube()``` used to find square of any number and will return the outp
 ```sh
 def cube():
     num = input("Enter your number: ")
-    return float(num) ** 2
+    return float(num) ** 3
 ```  
 
-### Output of Square function
+### Output of Cube function
 >![image](https://user-images.githubusercontent.com/86762727/155147865-dfe5890d-6add-41b3-9e2b-bdafd16fcded.png)
 
